@@ -5,5 +5,5 @@ docker build \
   --build-arg=PYTHON_VERSION=3.11.9 \
   --build-arg=NODE_VERSION=18.20.2 \
   --build-arg=APPS_JSON_BASE64=$APPS_JSON_BASE64 \
-  --tag=mnbhjk2/joinfun_erpnext:1.0.0 \
+  --tag=mnbhjk2/joinfun_erpnext:1.0.1 \
   --file=images/production/Containerfile .
